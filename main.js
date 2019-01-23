@@ -1,14 +1,3 @@
-/**
-* Tech Assesment for Giraffe
-* This program is designed to retrieve
-* 
-*
-* @author  Zara Ali
-* @version 1.0
-* @since   2014-03-31 
-*/
-
-//add comments JAVA doc comments
 const API_URL = "https://api.github.com/search/repositories?q=created:%3E2017-01-01&stars:%3E1&s=stars;"
 const LIMIT = 10
 fetch(API_URL).then( (response) => {
